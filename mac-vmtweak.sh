@@ -1,6 +1,6 @@
 #!/bin/bash
 readonly VM_RES="1680x1050"
-readonly NAME="macOS Mojave"
+readonly NAME="macOS 10.14 Mojave"
 
 VBoxManage setextradata "$NAME" "CustomVideoMode1" "${VM_RES}x32"
 VBoxManage setextradata "$NAME" VBoxInternal2/EfiGraphicsResolution "$VM_RES"
