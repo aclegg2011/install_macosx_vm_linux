@@ -2,7 +2,11 @@
 
 reference from https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/
 
+make sure virtualization is enabled in the bios
+
 install oracle vm
+
+install oracle extendions (need usb 3.0 support)
 
 download iso (got to find on your own)
 
@@ -20,7 +24,9 @@ download iso (got to find on your own)
 
 7) Open Storage tab then enables "Use Host I/O Cache" option.
 
-8) for linux: bash mac-vmtweak.sh 
+8) In the "USB" category make sure you select USB 3.0
+
+9) for linux: bash mac-vmtweak.sh 
 
    for windows: 
        Run Command Prompt
@@ -49,4 +55,4 @@ download iso (got to find on your own)
 
 *might also have to play with readonly VM_RES="1680x1050"
 
-9) Open the just created VirtualBox and click on the “Start” button. Create a new account.
+10) Open the just created VirtualBox and click on the “Start” button. Create a new account.
